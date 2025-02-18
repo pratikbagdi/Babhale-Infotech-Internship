@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 500px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            background-color: rgb(189, 189, 189);
+        }
+        td {
+            padding: 8px;
+        }
+        input, select, textarea {
+            width: 80%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        textarea {
+            height: 60px;
+        }
+        .radio-group, .checkbox-group {
+            display: flex;
+            align-items: center;
+        }
+        .radio-group input, .checkbox-group input {
+            width: auto;
+            margin-right: 5px;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+        button {
+            padding: 8px 12px;
+            border: none;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-right: 5px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        .reset {
+            background: #f44336;
+        }
+        .reset:hover {
+            background: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Enter your first name</td>
+                    <td><input type="text" placeholder="First Name"></td>
+                </tr>
+                <tr>
+                    <td>Enter your last name</td>
+                    <td><input type="text" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td>Enter your password</td>
+                    <td><input type="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td>ReEnter your password</td>
+                    <td><input type="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td>Enter your email</td>
+                    <td><input type="email" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td>Enter your mobile</td>
+                    <td><input type="tel" placeholder="Mobile No"></td>
+                </tr>
+                <tr>
+                    <td>Enter your address</td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td>Select your gender</td>
+                    <td class="radio-group">
+                        Male <input type="radio" name="gender"> 
+                        Female <input type="radio" name="gender"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select your hobbies</td>
+                    <td class="checkbox-group">
+                        Hobby 1 <input type="checkbox"> 
+                        Hobby 2 <input type="checkbox"> 
+                        Hobby 3 <input type="checkbox"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select your DOB</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Select your Country</td>
+                    <td>
+                        <select>
+                            <option>Select your country</option>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload your pic</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="buttons">
+                            <button type="submit">Save My Data</button>
+                            <button type="reset" class="reset">Reset Data</button>
+                        </div>
+                    </td>
+                </tr>
+                
+            </table>
+            
+        </form>
+    </div>
+</body>
+</html>

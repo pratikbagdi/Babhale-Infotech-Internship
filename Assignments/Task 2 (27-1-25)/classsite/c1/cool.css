@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    background-color: #ffccda; /* Pale pink background */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: navy; /* Navy blue text */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-decoration: overline underline;
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cold{
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-decoration: overline underline;
+    color: rgb(2, 131, 120);
+    text-align: center;
+    background-color: rgb(145, 240, 232);
+}
+
+hr{
+    height: 3px; 
+    background-color: red; 
+    border: none;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+/* Coolness Highlight */
+.coolness {
+    background-color: yellow;
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    border-top: 2px solid red;
+    padding-top: 15px;
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004499;
+}
+
+/* Cool List */
+.cool-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Highlighted Section */
+.highlight {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}

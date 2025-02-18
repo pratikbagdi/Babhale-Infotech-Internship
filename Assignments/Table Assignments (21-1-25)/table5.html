@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-Table</title>
+    <style>
+        table{
+            width: 100%;
+            border-spacing: 0;
+            border: 10px outset #7c7c7c;
+            margin: auto;
+        }
+        th, td{
+            border: 1px solid rgb(134, 134, 134);
+            text-align: center;
+            padding: 10px;
+        }
+        .time{
+            text-align: right;
+        }
+        .office{
+            background-color: rgb(255, 206, 133);
+        }
+        .meeting{
+            background-color: rgb(175, 175, 175);
+        }
+        .mat{
+            background-color: rgb(9, 216, 19);
+        }
+        .csc{
+            background-color: rgb(245, 160, 174);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <th class="time">1:00</th>
+            <td class="office" rowspan="2">Office</td>
+            <td></td>
+            <td class="office" rowspan="2">Office</td>
+            <td class="office" rowspan="8">Office Hours by Appt</td>
+            <td class="office" rowspan="2">Office</td>
+        </tr>
+        <tr>
+            <th class="time">1:30</th>
+            <td class="meeting" rowspan="2">Dept Meeting</td>
+        </tr>
+        <tr>
+            <th class="time">2:00</th>
+            <td class="mat" rowspan="3">MAT 108</td>
+            <td class="mat" rowspan="3">MAT 108</td>
+            <td class="mat" rowspan="3">MAT 108</td>
+        </tr>
+        <tr>
+            <th class="time">2:30</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th class="time">3:00</th>
+            <td class="meeting" rowspan="3">EC Meeting</td>
+        </tr>
+        <tr>
+            <th class="time">3:30</th>
+            <td class="csc" rowspan="3">CSC 205</td>
+            <td class="csc" rowspan="3">CSC 205</td>
+            <td class="csc" rowspan="3">CSC 205</td>
+        </tr>
+        <tr>
+            <th class="time">4:00</th>
+        </tr>
+        <tr>
+            <th class="time">4:30</th>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
