@@ -612,7 +612,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 /* Footer Section */
-/* General Footer Styles */
+
 .footer {
     background-color: #222222;
     color: #777777;
@@ -655,7 +655,6 @@ input:focus, select:focus, textarea:focus {
     margin: 5px 0;
 }
 
-/* Newsletter */
 .newsletter {
     display: flex;
     align-items: center;
@@ -679,7 +678,6 @@ input:focus, select:focus, textarea:focus {
     cursor: pointer;
 }
 
-/* Instagram Feed */
 .insta-feed {
     display: flex;
     flex-wrap: wrap;
@@ -692,7 +690,6 @@ input:focus, select:focus, textarea:focus {
     object-fit: cover;
 }
 
-/* Social Icons */
 .social-icons {
     margin-top: 10px;
 }
@@ -709,7 +706,6 @@ input:focus, select:focus, textarea:focus {
     color: rgb(247, 66, 127);
 }
 
-/* Footer Bottom */
 .footer-bottom {
     margin-top: 30px;
     font-size: 12px;
